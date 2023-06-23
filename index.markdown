@@ -15,6 +15,5 @@ title: Grace Julien
 - unbuildable:
     - add link to repository
     - add qgis images 
-
 - add art page?
 - links in about page to socials

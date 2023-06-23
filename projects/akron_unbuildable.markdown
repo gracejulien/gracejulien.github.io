@@ -5,7 +5,9 @@ permalink: /projects/akron_unbuildable
 ---
 # Akron Unbuildable Lots
 
-The [City of Akron Office of Integrated Development](https://www.akronohio.gov/cms/site/96eb9cb67e2b1ccd/index.html) defines an unbuildable parcel as "a lot having less than a 50-foot frontage," and a buildable parcel as "a lot having a minimum of 50-foot frontage and a lot size of greater than 5,000 sq. ft." EXPLAIN THE COSTS DIFFERENCES HERE. EXPLAIN INABILITY TO DO NEW CONSTRUCTION ON UNBUILDABLE LOTS.
+The [City of Akron Office of Integrated Development](https://www.akronohio.gov/cms/site/96eb9cb67e2b1ccd/index.html) defines an unbuildable parcel as "a lot having less than a 50-foot frontage," and a buildable parcel as "a lot having a minimum of 50-foot frontage and a lot size of greater than 5,000 sq. ft." 
+
+EXPLAIN THE COSTS DIFFERENCES HERE. EXPLAIN INABILITY TO DO NEW CONSTRUCTION ON UNBUILDABLE LOTS.
 
 figure out how to write this all w papa
 
