@@ -5,6 +5,7 @@ permalink: /projects/akron_unbuildable
 ---
 # Akron
 
+![Akron](./unbuildable_images/Akron.png)
 
 <iframe src="front_all.html" height="700" width="900"></iframe>
 

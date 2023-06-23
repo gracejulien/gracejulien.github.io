@@ -3,6 +3,6 @@ layout: default
 title: Projects
 permalink: /projects/
 ---
-#Projects
+# Projects
 *   [Akron Unbuildable Lots](./akron_unbuildable)
 *   other stuff
