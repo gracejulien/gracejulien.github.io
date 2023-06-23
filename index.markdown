@@ -9,12 +9,12 @@ title: Grace Julien
 
 ## [Projects](./projects)
 
-add resume page
-figure out favicon
-add other projects
-unbuildable:
-* add link to repository
-* add qgis images 
+- add resume page
+- figure out favicon
+- add other projects
+- unbuildable:
+    - add link to repository
+    - add qgis images 
 
-add art page?
-links in about page to socials
+- add art page?
+- links in about page to socials
