@@ -1,17 +1,49 @@
 ---
 layout: default
-title: Projects
+title: Akron "Unbuildable" Lots
 permalink: /projects/akron_unbuildable
 ---
-# Akron Unbuildable Lots
+# Akron "Unbuildable" Lots
 
-The [City of Akron Office of Integrated Development](https://www.akronohio.gov/cms/site/96eb9cb67e2b1ccd/index.html) defines an unbuildable parcel as "a lot having less than a 50-foot frontage," and a buildable parcel as "a lot having a minimum of 50-foot frontage and a lot size of greater than 5,000 sq. ft." 
+The City of Akron offers city-owned vacant residential lots [for sale to residents](https://www.akronohio.gov/cms/site/96eb9cb67e2b1ccd/index.html#Unbuildable%20Parcel). The City offers two categories of vacant lots: “buildable,” and “unbuildable.”
+[Buildable parcels](https://www.akronohio.gov/cms/site/96eb9cb67e2b1ccd/index.html#Unbuildable%20Parcel) are defined as lots “having a minimum of 50-foot frontage and a lot size of greater than 5,000 sq. ft.” The City sells these parcels at $0.50 per square foot.
+[Unbuildable parcels](https://www.akronohio.gov/cms/site/96eb9cb67e2b1ccd/index.html#Unbuildable%20Parcel) are defined as lots “having less than a 50-foot frontage.” The City sells these parcels at $0.05 per square foot.
 
-EXPLAIN THE COSTS DIFFERENCES HERE. EXPLAIN INABILITY TO DO NEW CONSTRUCTION ON UNBUILDABLE LOTS.
+Buildable parcels are considered development-ready, and are priced higher. Unbuildable parcels are treated as surplus land, and thus without significant value.
 
-figure out how to write this all w papa
+This distinction clearly influences the shape and character of future redevelopment in the city.
 
-There are at least _21,606_ so-called "unbuildable" parcels in Akron with a residential structure. There are 6,285 "unbuildable" parcels that are currently vacant, and cannot be built on due to the City's policy.
+Spending time in Akron’s older neighborhoods reveals a large number of houses on small lots. I was curious to see how many residential buildings are located on “unbuildable” lots.
+
+The answer is quite a few.
+
+To understand just how many, I began working in Python.
+
+First, I downloaded parcel characteristics from the Summit County Fiscal Office's Data Downloads website. I used [PARDAT](https://fiscaloffice.summitoh.net/index.php/documents-a-forms/viewdownload/10-cama/236-sc705pardat) and [LAND](https://fiscaloffice.summitoh.net/index.php/documents-a-forms/viewdownload/10-cama/271-sc709land). This data allowed me to access the Land Use Codes (LUCs), building values, frontages, square footage, and other useful information for parcels.
+
+I combined the two datasets from the Summit County Fiscal Office to create a dataset with attributes from both for every residential parcel in the city.
+
+I then filtered this dataset down to only include F type parcels. F type parcels are parcels that the County provides a measure of the frontage. They are typically residential. This left only parcels for which there was frontage information.
+
+I then further filtered the dataset, removing all parcels that had frontage greater than 45 ft or less than 25 ft. I chose these bounds to exclude very small and irregular parcels and to provide a margin of error at the upper bound.
+
+This produced a dataset of "unbuildable" residential parcels in the City of Akron.
+
+I then used the building value to distinguish between parcels that are vacant and parcels that have a residential building by creating a new Boolean vacancy column. If a parcel has a building value of 0, I considered it vacant, and set the Vacancy value to True for that parcel. If the parcel has a building value greater than 0, it has a residential building, and I set the Vacancy value to False.
+
+The code described above is located [here](https://github.com/gracejulien/unbuildable/blob/main/generate_data.ipynb).
+
+This dataset of “unbuildable” parcels was then used to produce the maps below.
+
+The static maps were created using QGIS (file located [here](https://github.com/gracejulien/unbuildable/blob/main/map.qgz)). The dynamic map at the bottom of the page was created using GeoPandas and Folium in Python (code located [here](https://github.com/gracejulien/unbuildable/blob/main/generate_visuals.ipynb)), and the parcels highlighted in it can be clicked on for information on the parcel, including Land Use Code, building value, and frontage.
+
+This dataset revealed that there are 21,606 “unbuildable” lots with residential buildings on them in the city.
+
+There are an additional 6,285 vacant parcels that are considered “unbuildable.”
+
+Six hundred of those vacant parcels have been assigned Land Use Code 640, which means that they are owned by the City.
+
+
 
 ![Akron](./unbuildable_images/Akron.png)
 
