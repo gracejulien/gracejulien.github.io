@@ -7,3 +7,4 @@ title: Grace Julien
 ---
 # [About](./about)
 
+[Projects](./projects)

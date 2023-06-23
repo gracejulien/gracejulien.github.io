@@ -4,5 +4,5 @@ title: Projects
 permalink: /projects/
 ---
 #Projects
-*   [Akron Unbuildable Lots](./projects/akron_unbuildable)
+*   [Akron Unbuildable Lots](./akron_unbuildable)
 *   other stuff
