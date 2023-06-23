@@ -10,7 +10,7 @@ title: Grace Julien
 ## [Projects](./projects)
 
 - add resume page
-- figure out favicon
+- write about page
 - add other projects
 - unbuildable:
     - add link to repository
