@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Projects
-permalink: /projects/
+permalink: /projects/akron_unbuildable
 ---
 #Akron
