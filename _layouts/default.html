@@ -21,11 +21,11 @@
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
 
         <ul>
-          {% if site.show_downloads %}
-            <li class="download"><a class="buttons" href="{{ site.github.zip_url }}">Download ZIP</a></li>
-            <li class="download"><a class="buttons" href="{{ site.github.tar_url }}">Download TAR</a></li>
-          {% endif %}
           <li><a class="buttons github" href="https://www.linkedin.com/in/grace-julien/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+
+        <ul>
+          <li><a class="buttons github" href="./about.html" target="_blank" rel="noopener noreferrer">About</a></li>
         </ul>
 
         {% if site.github.is_project_page %}
