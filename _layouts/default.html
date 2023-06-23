@@ -14,7 +14,6 @@
     {% include head-custom.html %}
   </head>
   <body>
-    {% include header.html %}
     <div class="wrapper">
       <header>
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
@@ -25,7 +24,7 @@
         </ul>
 
         <ul>
-          <li><a class="buttons github" href="./about.html" target="_blank" rel="noopener noreferrer">About</a></li>
+          <li><a class="buttons github" href="./about.html">About</a></li>
         </ul>
 
         {% if site.github.is_project_page %}
