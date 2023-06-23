@@ -5,3 +5,5 @@
 layout: default
 title: Grace Julien
 ---
+[About] (./about.html)
+
