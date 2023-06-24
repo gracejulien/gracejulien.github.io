@@ -24,7 +24,7 @@ First, I downloaded parcel characteristics from the Summit County Fiscal Office'
 
 I combined the two datasets from the Summit County Fiscal Office to create a dataset with attributes from both for every residential parcel in the city, and used [tax parcel](https://data-summitgis.opendata.arcgis.com/datasets/summitgis::parcels-web-geodata-tax-parcels/explore) and [jurisdiction](https://data-summitgis.opendata.arcgis.com/datasets/summitgis::jurisdictions-2/explore) data from County of Summit GIS.
 
-I then filtered this dataset down to only include F type parcels. F type parcels are parcels that the County provides a measure of the frontage. They are typically residential. This left only parcels for which there was frontage information.
+I then filtered this dataset down to only include F type parcels, which are parcels that the County provides a measure of the frontage for. They are typically residential. The County divides parcels into three groups: F type, for frontage, S type, for square footage, and A type for acreage. This left only parcels for which there was frontage information.
 
 I then further filtered the dataset, removing all parcels that had frontage greater than 45 ft or less than 25 ft. I chose these bounds to exclude very small and irregular parcels and to provide a margin of error at the upper bound.
 
