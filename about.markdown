@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 ## About
-I recently completed my data science degree at the University of Rochester (B.S. Data Science), with a concentration in computer science, mathematics, and statistics, and minors in mathematics and studio art.
+I recently completed my data science degree at the University of Rochester (B.S. Data Science), with a concentration in computer science, mathematics, and statistics, and minors in mathematics and studio arts.
 
 Raised in Akron, Ohio, I remember math and problem solving as a constant in my life, even as far back as elementary school, when I would ask my dad to give me numbers to multiply together as fast as I could in the backseat on our way home each night. Since then, I’ve followed the excitement and sense of achievement I felt solving problems in the backseat to data science and machine learning experiences at Corning, Inc., and in research at U of R. I’m interested in all things machine learning and AI, and in using them to address social inequities.
 
