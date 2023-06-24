@@ -10,9 +10,3 @@ title: Grace Julien
 ## [Projects](./projects)
 
 ## [My Art](./art)
-
-- add resume page
-
-- add other projects
-- add art page
-- links in about page to socials
