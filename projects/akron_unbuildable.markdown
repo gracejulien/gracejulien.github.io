@@ -4,6 +4,7 @@ title: Akron "Unbuildable" Lots
 permalink: /projects/akron_unbuildable
 ---
 # Akron "Unbuildable" Lots
+### Repository for this project accessible [here](https://github.com/gracejulien/unbuildable/tree/main).
 
 The City of Akron offers city-owned vacant residential lots [for sale to residents](https://www.akronohio.gov/cms/site/96eb9cb67e2b1ccd/index.html#Unbuildable%20Parcel). The City offers two categories of vacant lots: “buildable,” and “unbuildable.”
 [Buildable parcels](https://www.akronohio.gov/cms/site/96eb9cb67e2b1ccd/index.html#Unbuildable%20Parcel) are defined as lots “having a minimum of 50-foot frontage and a lot size of greater than 5,000 sq. ft.” The City sells these parcels at $0.50 per square foot.
