@@ -7,6 +7,6 @@ title: Grace Julien
 ---
 # [About](./about)
 
-## [Projects](./projects)
+# [Projects](./projects)
 
-## [My Art](./art)
+# [My Art](./art)
