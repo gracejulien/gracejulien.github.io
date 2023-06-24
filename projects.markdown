@@ -5,4 +5,5 @@ permalink: /projects/
 ---
 # Projects
 ### [Akron Unbuildable Lots](./akron_unbuildable)
+### Zalliant Capstone Project
 ### More to come!

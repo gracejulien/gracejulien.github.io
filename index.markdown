@@ -21,8 +21,10 @@ I'm currently looking to start my career in data science, and am excited to shar
 
 ### Find me elsewhere:
 
+[Email](mailto:grace.e.julien@gmail.com)
+
 [LinkedIn](https://www.linkedin.com/in/grace-julien/){:target="_blank" rel="noopener noreferrer"}
 
 [StoryGraph](https://app.thestorygraph.com/profile/grace_gr8){:target="_blank" rel="noopener noreferrer"}
 
-[Email](mailto:grace.e.julien@gmail.com)
+[Strava](https://www.strava.com/athletes/69743397){:target="_blank" rel="noopener noreferrer"}
