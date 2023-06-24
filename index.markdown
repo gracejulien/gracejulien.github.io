@@ -9,11 +9,10 @@ title: Grace Julien
 
 ## [Projects](./projects)
 
+## [My Art](./art)
+
 - add resume page
 - write about page
 - add other projects
-- unbuildable:
-    - add link to repository
-    - add qgis images 
-- add art page?
+- add art page
 - links in about page to socials
