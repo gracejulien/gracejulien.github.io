@@ -21,7 +21,7 @@ To understand just how many, I began working in Python.
 
 First, I downloaded parcel characteristics from the Summit County Fiscal Office's Data Downloads website. I used [PARDAT](https://fiscaloffice.summitoh.net/index.php/documents-a-forms/viewdownload/10-cama/236-sc705pardat) and [LAND](https://fiscaloffice.summitoh.net/index.php/documents-a-forms/viewdownload/10-cama/271-sc709land). This data allowed me to access the Land Use Codes (LUCs), building values, frontages, square footage, and other useful information for parcels.
 
-I combined the two datasets from the Summit County Fiscal Office to create a dataset with attributes from both for every residential parcel in the city.
+I combined the two datasets from the Summit County Fiscal Office to create a dataset with attributes from both for every residential parcel in the city, and used [tax parcel](https://data-summitgis.opendata.arcgis.com/datasets/summitgis::parcels-web-geodata-tax-parcels/explore) and [jurisdiction](https://data-summitgis.opendata.arcgis.com/datasets/summitgis::jurisdictions-2/explore) data from County of Summit GIS.
 
 I then filtered this dataset down to only include F type parcels. F type parcels are parcels that the County provides a measure of the frontage. They are typically residential. This left only parcels for which there was frontage information.
 
