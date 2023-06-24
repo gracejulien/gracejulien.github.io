@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Zalliant Capstone Project
-permalink: /projects/akron_unbuildable
+permalink: /projects/capstone
 ---
 # Zalliant Capstone Project
 
