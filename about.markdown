@@ -10,7 +10,7 @@ Raised in Akron, Ohio, I remember math and problem solving as a constant in my l
 
 I've spent the last few years working on small projects with my dad, an urban planner, on school breaks, bringing my skills as a data scientist to solve the unique problems he faces in urban planning. I'm excited to continue working on social problems, particularly in urban environments, in my future career.
 
-I made this website to share my explorations of the intersection between data science and social problems.
+I created this website to share my explorations of the intersection between data science and social problems.
 
 ### Find me elsewhere:
 
