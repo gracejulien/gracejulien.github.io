@@ -12,7 +12,7 @@ title: Grace Julien
 ## [My Art](./art)
 
 - add resume page
-- write about page
+
 - add other projects
 - add art page
 - links in about page to socials
