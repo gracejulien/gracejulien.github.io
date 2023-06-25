@@ -12,6 +12,7 @@ I've spent the last few years working on small projects with [my dad](https://ww
 
 I created this website to share my explorations of the intersection between data science, social inequities, and other fields.
 
+
 ### Find me elsewhere:
 
 [Email](mailto:grace.e.julien@gmail.com)
