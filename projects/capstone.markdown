@@ -9,4 +9,5 @@ I worked on this project with Konstantin Dits, Luke Lyons, and Helena Winkler as
 
 Below is our poster, created for the Hajim School of Engineering and Applied Science's Senior Design Day.
 
-![poster](./Final_Poster_Zalliant.pdf)
+<a href="./Final_Poster_Zalliant.pdf"></a>
+
