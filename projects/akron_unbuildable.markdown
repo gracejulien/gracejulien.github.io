@@ -58,4 +58,4 @@ Six hundred of those vacant parcels have been assigned Land Use Code 640, which 
 
 ![Kenmore](./unbuildable_images/Kenmore.png)
 
-<iframe src="front_all.html" height="700" width="900"></iframe>
+<iframe src="./unbuildable_images/front_all.html" height="700" width="900"></iframe>
