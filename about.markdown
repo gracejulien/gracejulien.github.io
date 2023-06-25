@@ -16,7 +16,9 @@ I created this website to share my explorations of the intersection between data
 ### Find me elsewhere:
 
 [Email](mailto:grace.e.julien@gmail.com)
+
 [LinkedIn](https://www.linkedin.com/in/grace-julien/){:target="_blank" rel="noopener noreferrer"}
+
 [Twitter](https://twitter.com/grace_e_julien){:target="_blank" rel="noopener noreferrer"}
 
 [StoryGraph](https://app.thestorygraph.com/profile/grace_gr8){:target="_blank" rel="noopener noreferrer"}
